@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portal de Pesquisas Populares</title>
+
+<style>
+body{
+    font-family:Arial,sans-serif;
+    margin:0;
+    background:#f4f4f4;
+}
+
+header{
+    background:linear-gradient(135deg,#0078ff,#00c6ff);
+    color:white;
+    text-align:center;
+    padding:40px;
+}
+
+.container{
+    width:90%;
+    max-width:1400px;
+    margin:auto;
+    padding:20px;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:white;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 4px 15px rgba(0,0,0,.12);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+.card h2{
+    color:#0078ff;
+    padding:15px 20px 0;
+}
+
+.card ul{
+    padding:0 25px 20px;
+}
+
+.card li{
+    margin:8px 0;
+}
+
+a{
+    text-decoration:none;
+    color:#333;
+}
+
+a:hover{
+    color:#0078ff;
+}
+
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:30px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>🔥 Portal de Pesquisas Populares</h1>
+<p>Pesquise assuntos interessantes da internet</p>
+</header>
+
+<div class="container">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=1200" alt="Futebol">
+<h2>⚽ Futebol</h2>
+<ul>
+<li><a href="https://www.youtube.com/results?search_query=libertadores">Libertadores</a></li>
+<li><a href="https://www.youtube.com/results?search_query=champions+league">Champions League</a></li>
+<li><a href="https://www.youtube.com/results?search_query=neymar">Neymar</a></li>
+<li><a href="https://www.youtube.com/results?search_query=cristiano+ronaldo">Cristiano Ronaldo</a></li>
+<li><a href="https://www.youtube.com/results?search_query=messi">Messi</a></li>
+</ul>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=1200" alt="Música">
+<h2>🎵 Música</h2>
+<ul>
+<li><a href="https://www.youtube.com/results?search_query=sertanejo">Sertanejo</a></li>
+<li><a href="https://www.youtube.com/results?search_query=funk+brasileiro">Funk</a></li>
+<li><a href="https://www.youtube.com/results?search_query=rock+internacional">Rock</a></li>
+<li><a href="https://www.youtube.com/results?search_query=kpop">K-pop</a></li>
+</ul>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=1200" alt="Cinema">
+<h2>🎬 Filmes</h2>
+<ul>
+<li><a href="https://www.youtube.com/results?search_query=trailers+marvel">Marvel</a></li>
+<li><a href="https://www.youtube.com/results?search_query=filmes+de+acao">Ação</a></li>
+<li><a href="https://www.youtube.com/results?search_query=filmes+de+terror">Terror</a></li>
+<li><a href="https://www.youtube.com/results?search_query=filmes+ficcao+cientifica">Ficção Científica</a></li>
+</ul>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200" alt="Tecnologia">
+<h2>📱 Tecnologia</h2>
+<ul>
+<li><a href="https://chatgpt.com">ChatGPT</a></li>
+<li><a href="https://www.youtube.com/results?search_query=inteligencia+artificial">IA</a></li>
+<li><a href="https://www.youtube.com/results?search_query=programacao">Programação</a></li>
+<li><a href="https://www.youtube.com/results?search_query=robotica">Robótica</a></li>
+</ul>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1511512578047-dfb367046420?w=1200" alt="Games">
+<h2>🎮 Jogos</h2>
+<ul>
+<li><a href="https://www.youtube.com/results?search_query=minecraft">Minecraft</a></li>
+<li><a href="https://www.youtube.com/results?search_query=roblox">Roblox</a></li>
+<li><a href="https://www.youtube.com/results?search_query=fortnite">Fortnite</a></li>
+<li><a href="https://www.youtube.com/results?search_query=valorant">Valorant</a></li>
+<li><a href="https://www.youtube.com/results?search_query=gta+6">GTA 6</a></li>
+</ul>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=1200" alt="Educação">
+<h2>📚 Educação</h2>
+<ul>
+<li><a href="https://www.youtube.com/results?search_query=matematica+basica">Matemática</a></li>
+<li><a href="https://www.youtube.com/results?search_query=ingles+para+iniciantes">Inglês</a></li>
+<li><a href="https://www.youtube.com/results?search_query=historia+do+brasil">História</a></li>
+</ul>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200" alt="Viagens">
+<h2>🌎 Viagens</h2>
+<ul>
+<li><a href="https://www.youtube.com/results?search_query=turismo+no+brasil">Turismo no Brasil</a></li>
+<li><a href="https://www.youtube.com/results?search_query=lugares+mais+bonitos+do+mundo">Lugares Bonitos</a></li>
+</ul>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1200" alt="Culinária">
+<h2>🍔 Culinária</h2>
+<ul>
+<li><a href="https://www.youtube.com/results?search_query=receitas+faceis">Receitas Fáceis</a></li>
+<li><a href="https://www.youtube.com/results?search_query=bolo+de+chocolate">Bolo de Chocolate</a></li>
+</ul>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=1200" alt="Carros">
+<h2>🚗 Carros</h2>
+<ul>
+<li><a href="https://www.youtube.com/results?search_query=carros+esportivos">Carros Esportivos</a></li>
+<li><a href="https://www.youtube.com/results?search_query=lancamentos+automoveis">Lançamentos</a></li>
+</ul>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=1200" alt="Saúde">
+<h2>💪 Saúde e Bem-Estar</h2>
+<ul>
+<li><a href="https://www.youtube.com/results?search_query=alimentacao+saudavel">Alimentação Saudável</a></li>
+<li><a href="https://www.youtube.com/results?search_query=exercicios+em+casa">Exercícios em Casa</a></li>
+</ul>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1517849845537-4d257902454a?w=1200" alt="Animais">
+<h2>🐾 Animais</h2>
+<ul>
+<li><a href="https://www.youtube.com/results?search_query=gatos+engracados">Gatos Engraçados</a></li>
+<li><a href="https://www.youtube.com/results?search_query=vida+selvagem">Vida Selvagem</a></li>
+</ul>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=1200" alt="Espaço">
+<h2>🚀 Espaço</h2>
+<ul>
+<li><a href="https://www.youtube.com/results?search_query=nasa">NASA</a></li>
+<li><a href="https://www.youtube.com/results?search_query=spacex">SpaceX</a></li>
+</ul>
+</div>
+
+</div>
+
+<footer>
+© 2026 Portal de Pesquisas Populares
+</footer>
+
+</body>
+</html>
